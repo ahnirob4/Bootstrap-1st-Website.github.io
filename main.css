@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 100px;
+}
+
+.navbarmar{
+    margin-top: 30px;
+}
+
+.carousel-inner{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+
+.martxt{
+    margin: 30px;
+    
+}
+
+.buy-now-button{
+    padding: 9px 25px;
+    background-image:linear-gradient(to bottom, #FF589B, #FF136F ) ;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.dollar{
+    color: #FF136F;
+    font-weight: bolder;
+}
+
+/* Header Section */
+
+.catext{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.categories{
+    height: 300px;
+}
+
+.cat1{
+    width: 100%;
+}
+
+.cat1{
+    display: flex;
+    background-image: linear-gradient(to bottom, #FF9C35, #FFD019);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-radius: 10px;
+}
+
+.cat2{
+    display: flex;
+    background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-radius: 10px;
+}
+
+.cat3{
+    display: flex;
+    background-image: linear-gradient(to bottom, #4289FF, #3F07F8);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border-radius: 10px;
+}
+
+    /* Categories Section End */
+
+.card{
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.shoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes h6{
+    color: #FF9D00;
+    cursor: pointer;
+}
+
+.card-body button{
+    padding: 9px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+}
+
+.card-deck .card{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #FFF2F1;
+    border-radius: 10px;
+}
+
+.footer div{
+    text-align: center;
+
+}
+
+.footer div input{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px 0 0 6px;
+    border: none;
+}
+
+.footer div button{
+    width: 80px;
+    height: 40px;
+    margin: -4px;
+    border-radius: 0 6px 6px 0;
+    background-image:linear-gradient(to bottom, #FF589B, #FF136F) ;
+    border: none;
+    color: white;
+}
+
+.smallcenter{
+    text-align: center;
+}
+
+
+
+
+
